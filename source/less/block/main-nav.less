@@ -1,0 +1,39 @@
+.main-nav {
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 0;
+  width: 80%;
+}
+
+.main-nav__logo {
+  fill: rgba(225, 225, 225, 0.6);
+}
+
+.main-nav__logo svg {
+  &:hover {
+    animation: color 1s infinite alternate;
+  }
+}
+
+@keyframes color {
+  0% {
+    fill: #ff0101;
+  }
+
+  25% {
+    fill: #F3F315;
+  }
+
+  50% {
+    fill: #4d4dff;
+  }
+
+  75% {
+    fill: #ff69b4;
+  }
+
+  100% {
+    fill: #39ff14;
+  }
+}
